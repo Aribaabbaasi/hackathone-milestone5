@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #b88a99;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color:  #b34366;
+    border-style:dotted;
+    box-shadow: 0 4px 8px purple;
+    width: calc(100% - 1opx);
+    padding: 8px;
+    margin-top: 4px;
+    border: 2px solid#141414;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: #b88a99;
+    padding: 20px;
+};
+
+fieldset {
+    border: 2px solid#7a2424;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue,
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color:  white;
+    background-color: #b34366;
+    border: 2px solid black;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:  #b34366;
+}
+
+input,textarea {
+
+    width: 550px;
+    padding: 10px;
+    margin-top: 4px;
+    border: 3px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 600px;
+    padding: 10px;
+    background-color: #b34366;
+    color: white;
+    border: none;
+    border-radius: 0 4px 8px black;
+    box-shadow:0 4px 8px purple ;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: rgb(155, 29, 46);
+
+}
+
+.profilePicture {
+ 
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+        box-shadow: 0 4px 8px purple;
+        border-radius:100%; /* Ensures it's a circle */
+        width: 300px; /* Set equal width and height */
+        height: 100px; /* Set equal width and height */
+        object-fit: cover;
+    }
+
+
+    .pattern{
+        background-image: linear-gradient(
+            black
+        ) ;
+    }
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #b34366;
+    box-shadow: 0 4px 8px purple;
+    /*Making the resume editable*/
+    outline: none;
+    
+}
+
+#resume-display h2 {
+    color: white;
+}
